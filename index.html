@@ -24,7 +24,7 @@
         var loadPage = function(id){
             var nextPage = document.getElementById(id).innerHTML;
             document.getElementById('content').innerHTML = nextPage;
-        };
+        }; //asdasd
         var historyLog = function(id){
            var state = { id: id };
            history.pushState(state, state.id, rootURL+state.id);
